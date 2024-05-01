@@ -10,17 +10,28 @@
 // "33abc" => NaN;
 // true => 1; false => 0;
 
-let isLogedIn = "waqas";
+//let isLogedIn = "waqas";
 
-let BoleanIn = Boolean(isLogedIn)
+//let BoleanIn = Boolean(isLogedIn)
 //console.log(BoleanIn);
 
 // 1 => true; 0 => false;
 // "" => false ;
 // "waqas" => true
 
-let stringNumber = 33;
+/* let stringNumber = 33;
 
 let someNumber = String(stringNumber);
 console.log(someNumber);
-console.log(typeof someNumber);
+console.log(typeof someNumber); */
+
+
+let str1 = "Hello";
+let str2 = " Waqas";
+let str3 = str1+str2;
+//console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log(1 + 2 + "2");
+console.log("1" + 2+ 2);
